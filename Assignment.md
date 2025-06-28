@@ -89,4 +89,6 @@
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+![Merge Conflict Resolution](image-4.png)
+
+- Shows manual conflict resolution in GitHub or your code editor.
