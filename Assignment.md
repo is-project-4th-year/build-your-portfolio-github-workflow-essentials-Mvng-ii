@@ -10,7 +10,7 @@
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+  _(https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Mvng-ii/)_
 
 
 ## 3. Learnings from the Git Crash Program
@@ -89,4 +89,6 @@
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+![Merge Conflict Resolution](image-4.png)
+
+- Shows manual conflict resolution in GitHub or your code editor.
