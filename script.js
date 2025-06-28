@@ -43,3 +43,25 @@ function toggleMenu() {
   document.querySelector('.nav-links').classList.toggle('active');
 }
 
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+
+  // Save preference
+  if (document.body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
+    document.querySelector(".theme-toggle").textContent = "☀️";
+  } else {
+    localStorage.setItem("theme", "light");
+    document.querySelector(".theme-toggle").textContent = "🌙";
+  }
+}
+
+// Load preference on page load
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    document.querySelector(".theme-toggle").textContent = "☀️";
+  }
+});
+
