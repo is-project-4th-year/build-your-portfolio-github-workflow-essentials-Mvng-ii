@@ -38,3 +38,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   formMessage.style.color = "#4caf50";
   this.reset();
 });
+
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('active');
+}
