@@ -18,7 +18,3 @@ function applyFadeInAnimation(selector, threshold = 0.15) {
 applyFadeInAnimation('.project-card', 0.15);
 // Fade-in animation when about section comes into view
 applyFadeInAnimation('.about', 0.2);
-
-
-
-
