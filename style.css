@@ -295,9 +295,31 @@ form .btn:hover {
 }
 
 .menu-toggle {
-  display: block !important;
+  display: none;
   font-size: 2rem;
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #c8a2c8;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
 
